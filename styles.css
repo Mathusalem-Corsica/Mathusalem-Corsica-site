@@ -2,6 +2,7 @@
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
 body { margin:0; color:var(--ink); background:var(--paper); font-family:var(--sans); line-height:1.55; }
+.national-link { color:var(--terra); font-weight:700; text-decoration-thickness:1px; text-underline-offset:2px; }.national-link:hover { color:var(--forest); }
 a { color:inherit; }
 .skip-link { position:absolute; left:-10000px; top:auto; }.skip-link:focus { left:1rem; top:1rem; z-index:100; padding:.7rem 1rem; background:#fff; }
 .site-header { min-height:104px; display:flex; align-items:center; justify-content:space-between; padding:8px clamp(1.25rem,5vw,5rem); background:var(--paper); position:sticky; top:0; z-index:20; border-bottom:1px solid rgba(22,32,22,.1); }
